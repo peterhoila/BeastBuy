@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    background-color: #cfd7c7;
+}
+
+.row {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.word {
+    flex: 1;
+    text-align: right;
+}
+
+.number {
+    flex: 1;
+    text-align: right;
+}
+
+#receipt {
+    padding: 10px;
+    margin: 20px;
+    border-style: dashed;
+    background-color: #f6f1d1;
+    width: 40%;
+}

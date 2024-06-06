@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: #cfd7c7;
+}
+
+section{
+    flex: 1;
+}
+
+.customer-lookup{
+    width: 50%;
+    margin: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+fieldset{
+    background-color: #f6f1d1;
+    margin-top: 20px;
+}
+.align-label {
+    display: inline-block;
+    width: 8em;
+    margin-right: 10px;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+
+.legend, .submit-btn{
+    background-color: #0b2027;
+    color: white;
+    font-size: 20px;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.asterisk{
+    color: red;
+}
+select{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+.reset-btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#available{
+    background-color: paleturquoise;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }

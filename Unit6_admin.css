@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: #cfd7c7;
+}
+
+section{
+  padding: 30px;
+}
+td,th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+}

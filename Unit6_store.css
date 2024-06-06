@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: #cfd7c7;
+}
+
+section{
+    flex: 1;
+}
+
+.side-image{
+    border-style: solid;
+    border-color: #0b2027;
+    width: 50%;
+    margin: 40px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+fieldset{
+    background-color: #f6f1d1;
+    margin-top: 20px;
+}
+.align-label {
+    display: inline-block;
+    width: 8em;
+    margin-right: 10px;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+
+.legend, .submit-btn{
+    background-color: #0b2027;
+    color: white;
+    font-size: 20px;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.asterisk{
+    color: red;
+}
+select{
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+#stock-message{
+    color: red;
+    font-weight: bold;
+}
